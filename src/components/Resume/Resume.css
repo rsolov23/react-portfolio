@@ -1,0 +1,5 @@
+img {
+  filter: brightness(120%);
+  filter: contrast(120%);
+  filter: drop-shadow(10px 10px 10px #1c3866);
+}
