@@ -1,16 +1,6 @@
 import React from "react";
 import { Box, Flex, Stack, Heading, Button } from "@chakra-ui/react";
 import "./Resume.css";
-import htmlImage from "../../assets/images/html.png";
-import cssImage from "../../assets/images/css.png";
-import jsImage from "../../assets/images/js.png";
-import reactImage from "../../assets/images/react.png";
-import mongoImage from "../../assets/images/mongo.png";
-import mysqlImage from "../../assets/images/mysql.png";
-import nodeImage from "../../assets/images/node.png";
-import npmImage from "../../assets/images/npm.png";
-import gitImage from "../../assets/images/git.png";
-import expressImage from "../../assets/images/express.png";
 
 function Resume() {
   return (
@@ -36,7 +26,7 @@ function Resume() {
             Resume
           </Heading>
           <Flex justifyContent="center">
-            <Button
+            <a
               align="center"
               id="download"
               href={require(`../../assets/images/portfolio.pdf`).default}
@@ -47,32 +37,18 @@ function Resume() {
               textColor="#40a9e8"
               mb={3}
             >
-              Download My Resume
-            </Button>
+              <Button
+                color="#FAF9F6"
+                textColor="#40a9e8"
+                mb={3}
+                align="center"
+                id="download"
+              >
+                {" "}
+                Download My Resume
+              </Button>
+            </a>
           </Flex>
-          <div className="iframeContainer col-lg-12"></div>
-          <div>
-            <Heading textAlign="center" mb={3}>
-              Skills
-            </Heading>
-            <div className="logos">
-              <Flex flexDir="row" justifyContent="space-between">
-                <img src={htmlImage} style={{ padding: "10px" }} />
-                <img src={cssImage} style={{ padding: "10px" }} />
-                <img src={jsImage} style={{ padding: "10px" }} />
-                <img src={mongoImage} style={{ padding: "10px" }} />
-                <img src={expressImage} style={{ padding: "10px" }} />
-              </Flex>
-
-              <Flex flexDir="row" justifyContent="space-between">
-                <img src={reactImage} style={{ padding: "10px" }} />
-                <img src={nodeImage} style={{ padding: "10px" }} />
-                <img src={mysqlImage} style={{ padding: "10px" }} />
-                <img src={npmImage} style={{ padding: "10px" }} />
-                <img src={gitImage} style={{ padding: "10px" }} />
-              </Flex>
-            </div>
-          </div>
         </Box>
       </Stack>
     </Flex>

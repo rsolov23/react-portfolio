@@ -9,7 +9,9 @@ function Header(props) {
       <li>
         <a href="/Projects">Projects</a>
       </li>
-
+      <li>
+        <a href="/skills/">Skills</a>
+      </li>
       <li>
         <a href="/resume/">Resume</a>
       </li>
