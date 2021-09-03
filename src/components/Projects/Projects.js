@@ -8,7 +8,7 @@ import {
   Image,
   Flex,
 } from "@chakra-ui/react";
-
+import Footer from "../Footer/Footer";
 import jotitImage from "./images/1234.png";
 import helpingHands from "./images/helpinghands.png";
 import game from "./images/gaminator.png";
@@ -425,6 +425,9 @@ export default function ProductSimple() {
           </Stack>
         </Stack>
       </Box>
+      <Flex justifyContent="right" alignItems="right" flexDirection="row">
+        <Footer />
+      </Flex>
     </Flex>
   );
 }

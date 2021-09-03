@@ -5,7 +5,7 @@ import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Skills from "./components/Skills/Skills";
 import Resume from "./components/Resume/Resume";
-import Footer from "./components/Footer/Footer";
+
 import backgroundVideo from "./assets/images/video.mp4";
 import { ChakraProvider } from "@chakra-ui/react";
 function App() {
@@ -24,7 +24,7 @@ function App() {
               <Route exact path="/skills" component={Skills} />
               <Route exact path="/resume" component={Resume} />
             </div>
-            <Footer />
+       
           </div>
         </div>
       </ChakraProvider>

@@ -11,9 +11,12 @@ function About() {
         justifyContent="center"
         alignItems="center"
       >
-        <Heading as="h1" size="4xl" isTruncated>
-          Rachel Solov
-        </Heading>
+        <a className="anchor" name="heading">
+          {" "}
+          <Heading as="h1" size="4xl" isTruncated>
+            Rachel Solov
+          </Heading>
+        </a>
         <Text fontSize="4xl">Full Stack Web Developer in Austin, TX</Text>
         <Flex
           flexDirection="row"
@@ -49,7 +52,7 @@ function About() {
           <div id="down-arrow">
             <span>
               <a href="#about">
-                <i className="fa fa-chevron-down" aria-hidden="true"></i>
+                <i className="fas fa-sort-down fa-3x" aria-hidden="true"></i>
               </a>
             </span>
           </div>
@@ -64,36 +67,45 @@ export default About;
 
 function Bio() {
   return (
-    <Flex
-      flexDirection="column"
-      width="100wh"
-      height="100vh"
-      justifyContent="center"
-      alignItems="center"
-    >
-      <Stack
-        p="6"
-        rounded="md"
-        spacing={4}
-        flexDir="column"
+    <>
+      <Flex
+        flexDirection="column"
+        width="100wh"
+        height="100vh"
         justifyContent="center"
         alignItems="center"
       >
-        <a className="anchor" name="about"></a>
-        <Heading textAlign="center" p="2rem">
-          About
-        </Heading>
+        <div id="up-arrow">
+          <span>
+            <a href="#heading">
+              <i className="fas fa-sort-up fa-3x" aria-hidden="true"></i>
+            </a>
+          </span>
+        </div>
+        <Stack
+          p="6"
+          rounded="md"
+          spacing={4}
+          flexDir="column"
+          justifyContent="center"
+          alignItems="center"
+        >
+          <a className="anchor" name="about"></a>
+          <Heading textAlign="center" p="2rem">
+            About
+          </Heading>
 
-        <Text textAlign="center" p="2rem">
-          I am a Full Stack Web Developer currently enjoying the rigorous
-          fast-paced Coding Boot Camp at the University of Texas. I am a
-          motivated, creative, and dependable individual. I thrive when handling
-          multiple tasks on a daily basis competently and I work well under
-          pressure. In my free time I enjoy spending time in the outdoors with
-          my two dogs, attending concerts, and spending time with my
-          grandfather.
-        </Text>
-      </Stack>
-    </Flex>
+          <Text textAlign="center" p="2rem">
+            I am a Full Stack Web Developer currently enjoying the rigorous
+            fast-paced Coding Boot Camp at the University of Texas. I am a
+            motivated, creative, and dependable individual. I thrive when
+            handling multiple tasks on a daily basis competently and I work well
+            under pressure. In my free time I enjoy spending time in the
+            outdoors with my two dogs, attending concerts, and spending time
+            with my grandfather.
+          </Text>
+        </Stack>
+      </Flex>
+    </>
   );
 }

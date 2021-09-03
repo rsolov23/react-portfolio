@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Flex, Stack, Heading, Button } from "@chakra-ui/react";
-
+import Footer from "../Footer/Footer";
 import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
 
@@ -56,6 +56,9 @@ function Skills() {
           </div>
         </Box>
       </Stack>
+      <Flex justifyContent="right" alignItems="right" flexDirection="row">
+        <Footer />
+      </Flex>
     </Flex>
   );
 }
