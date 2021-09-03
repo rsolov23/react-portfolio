@@ -75,13 +75,6 @@ function Bio() {
         justifyContent="center"
         alignItems="center"
       >
-        <div id="up-arrow">
-          <span>
-            <a href="#heading">
-              <i className="fas fa-sort-up fa-3x" aria-hidden="true"></i>
-            </a>
-          </span>
-        </div>
         <Stack
           p="6"
           rounded="md"
