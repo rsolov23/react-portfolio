@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-function Header(props) {
+function Header() {
   return (
     <ul className="nav">
       <li>
