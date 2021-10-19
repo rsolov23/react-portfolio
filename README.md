@@ -1,36 +1,27 @@
-# Rachel's React Portfolio 🌟
+![Screenshot](./develop/assets/Images/screenshot.jpg)
 
-![screenshot](./public/images/screenshot.png)
+# Rachel Solov's Portfolio
 
-# Table of Contents
+## Table of Contents
 
 - [Description](#description)
-- [Heroku-Link](#heroku-link)
-- [Built-With](#built-With)
-- [Contribution](#contribution)
+- [Github Profile](#github-profile)
+- [Link to My Portfolio](#link-to-my-portfolio)
+- [Contributors](#contributors)
 
-# Description
+### Description
 
-A React Portfolio to display my projects
+This is my Portfolio for Module 2 Weekly Challenge.
 
-# Heroku Link
+### Github Profile
 
-- [React Portfolio](https://rachels-react-portfolio.herokuapp.com/)
+https://github.com/rsolov23/
 
-# Built With
+### Link to my Portfolio
 
-- [React](https://reactjs.org/)
-- [React-Router](https://reactrouter.com/web/guides/quick-start)
-- [Chakra UI](https://chakra-ui.com/)
+https://rsolov23.github.io/Rachel-s-Portfolio/
 
-# _Contribution_
+### Contributors
 
-Feel free to contribute to this project in any of the following ways:
-
-- [Submit bug and feature requests](https://github.com/rsolov23/react-portfolio/issues)
-- [Review Source Code Changes](https://github.com/rsolov23/react-portfolio/pulls) and make pull requests from typos to content
-- For specific concerns that do not meet the above please do not hesitate to reach out to me via [My GitHub](https://github.com/rsolov23).
-
-If you are interested in fixing issues directly to the code base, please reference the [How to Contribute](https://github.com/microsoft/vscode/wiki/How-to-Contribute) article.
-
-♦️ Copyright (c) 2021 Rachel Solov
+- Rachel Solov
+- Special shout out to Sean, Donte, Brendan, Megan, Tori, Mike, Bradley and all my classmates.

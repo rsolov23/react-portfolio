@@ -426,7 +426,7 @@ export default function ProductSimple() {
         </Stack>
       </Box>
       <Flex justifyContent="right" alignItems="right" flexDirection="row">
-        <Footer />
+        {/* <Footer /> */}
       </Flex>
     </Flex>
   );

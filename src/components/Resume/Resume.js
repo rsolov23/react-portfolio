@@ -55,7 +55,7 @@ function Resume() {
         </Stack>
       </Flex>
       <Flex justifyContent="right" alignItems="right" flexDirection="row">
-        <Footer />
+        {/* <Footer /> */}
       </Flex>
     </>
   );

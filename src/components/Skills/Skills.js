@@ -57,7 +57,7 @@ function Skills() {
         </Box>
       </Stack>
       <Flex justifyContent="right" alignItems="right" flexDirection="row">
-        <Footer />
+        {/* <Footer /> */}
       </Flex>
     </Flex>
   );

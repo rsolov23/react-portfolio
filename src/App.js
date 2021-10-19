@@ -25,7 +25,7 @@ function App() {
               <Route exact path="/resume" component={Resume} />
             </div>
           </div>
-          <Footer />
+          {/* <Footer /> */}
         </div>
       </ChakraProvider>
     </Router>
