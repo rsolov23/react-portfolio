@@ -7,7 +7,7 @@
 - [Description](#description)
 - [Github Profile](#github-profile)
 - [Link to My Portfolio](#link-to-my-portfolio)
-- [Contributors](#contributors)
+
 
 ### Description
 
@@ -21,7 +21,4 @@ https://github.com/rsolov23/
 
 https://rsolov23.github.io/Rachel-s-Portfolio/
 
-### Contributors
 
-- Rachel Solov
-- Special shout out to Sean, Donte, Brendan, Megan, Tori, Mike, Bradley and all my classmates.
